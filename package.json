@@ -1,0 +1,27 @@
+{
+  "name": "arsnova-cloud-socket-service",
+  "version": "0.0.1",
+  "description": "arsnova-cloud-socket-service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ARSnova-cloud/socket-service.git"
+  },
+  "keywords": [
+    "arsnova",
+    "cloud",
+    "socket-service"
+  ],
+  "author": "Stefan Schmeisser(mail@stefanschmeisser.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
